@@ -46,7 +46,7 @@ def game_any_sum(array: tuple, fin_value: str, fin_pos: str, moves: str, player 
         return False
     if step % 2 == player % 2:
         return any(game_any_sum(i, fin_value, fin_pos, moves, player, step + 1) for i in move(array, moves))
-    return all(game_any_sum(i, fin_value, fin_pos, moves, player, step + 1) for i in move(array, moves))
+    return any(game_any_sum(i, fin_value, fin_pos, moves, player, step + 1) for i in move(array, moves))
 
 @lru_cache(None)
 def game_any(array: tuple, fin_value: str, fin_pos: str, moves: str, player = 1, step = 1):
