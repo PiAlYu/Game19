@@ -8,10 +8,10 @@ def readme():
 
 setup(
   name='game19',
-  version='0.0.5',
+  version='0.0.2',
   author='PiAlYu',
   author_email='aypirogov@gmail.com',
-  description='This is the simplest module for quick work with task №19.',
+  description='This is the simplest module for quick work with task №19, №20, №21.',
   long_description=readme(),
   long_description_content_type='text/markdown',
   url='https://github.com/PiAlYu/Game19',
