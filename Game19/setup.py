@@ -8,7 +8,7 @@ def readme():
 
 setup(
   name='game19',
-  version='0.0.3',
+  version='0.0.4',
   author='PiAlYu',
   author_email='aypirogov@gmail.com',
   description='This is the simplest module for quick work with task №19.',
