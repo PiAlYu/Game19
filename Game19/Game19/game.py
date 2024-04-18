@@ -83,3 +83,4 @@ def game(type: str, array, fin_value: str, fin_pos, moves: str, player = 1, step
         if type == 'any': return game_any(array, fin_value, fin_pos, moves, player, step) and not(game_any(array, fin_value, fin_pos[0], moves, player, step))
         if type == 'all_sum': return game_all_sum(array, fin_value, fin_pos, moves, player, step) and not(game_all_sum(array, fin_value, fin_pos[0], moves, player, step))
         if type == 'any_sum': return game_any_sum(array, fin_value, fin_pos, moves, player, step) and not(game_any_sum(array, fin_value, fin_pos[0], moves, player, step))
+
